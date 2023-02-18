@@ -43,10 +43,11 @@ a {
   padding: 0.9375rem 1.875rem;
   border-radius: 0.25rem;
   color: #000000;
+  border: 0.125rem solid #ffffff;
 }
 
 .menu a:hover {
-  border: 0.125rem solid #ee2211;
+  border-color: #ee2211;
 }
 
 img {
