@@ -11,12 +11,17 @@
   }
 
   .menu {
-    gap: 1.25rem;
+    /* gap: 1.25rem; */
+    display: none;
   }
 
   .principal {
     max-width: 43.75rem;
     grid-template-columns: 1fr;
+  }
+
+  .subtitulo {
+    word-wrap: break-word;
   }
 
   .introducao::before {
@@ -39,7 +44,4 @@
 }
 
 @media screen and (min-width: 414px) {
-  .subtitulo {
-    box-sizing: border-box;
-  }
 }
