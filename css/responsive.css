@@ -37,3 +37,9 @@
     max-width: 45ch;
   }
 }
+
+@media screen and (min-width: 414px) {
+  .subtitulo {
+    box-sizing: border-box;
+  }
+}
