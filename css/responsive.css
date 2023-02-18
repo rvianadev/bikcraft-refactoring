@@ -1,0 +1,32 @@
+@media screen and (max-width: 854px) {
+  .cabecalho {
+    display: flex;
+  }
+
+  .menu {
+    gap: 1.25rem;
+  }
+
+  .principal {
+    max-width: 43.75rem;
+    grid-template-columns: 1fr;
+  }
+
+  .introducao::before {
+    display: none;
+  }
+
+  .introducao::after {
+    content: "";
+    width: 0.25rem;
+    height: 3.75rem;
+    background-color: #ee2211;
+    position: absolute;
+    bottom: -1.875rem;
+    right: 50%;
+  }
+
+  .introducao p {
+    max-width: 45ch;
+  }
+}
