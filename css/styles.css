@@ -97,7 +97,7 @@ img {
 
 .subtitulo {
   text-transform: uppercase;
-  font-size: 4rem;
+  /* font-size: 4rem; */
   color: #c6c6c6;
   background-image: url(./img/onda.svg);
   text-align: right;

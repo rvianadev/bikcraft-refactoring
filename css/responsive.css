@@ -12,7 +12,6 @@
 
   .menu {
     /* gap: 1.25rem; */
-    display: none;
   }
 
   .principal {
@@ -21,7 +20,7 @@
   }
 
   .subtitulo {
-    word-wrap: break-word;
+    font-size: 2rem;
   }
 
   .introducao::before {
@@ -31,10 +30,11 @@
   .introducao::after {
     content: "";
     width: 0.25rem;
-    height: 3.75rem;
+    /* height: 3.75rem; */
+    height: 1.875rem;
     background-color: #ee2211;
     position: absolute;
-    bottom: -1.875rem;
+    bottom: -0.9375rem;
     right: 50%;
   }
 
