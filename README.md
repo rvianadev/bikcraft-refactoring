@@ -6,4 +6,4 @@ Este é um projeto desenvolvido para fins didáticos e está em constante aprimo
 
 Link para o projeto no [Vercel](https://bikcraft-refactoring.vercel.app).
 
-
+![Bikcraft](./img/screenshot.png "Bikcraft")
