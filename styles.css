@@ -119,8 +119,16 @@ main {
   padding: 1.25rem;
 }
 
+.impar {
+  border-left: 0.1875rem solid #f7f7f7;
+}
+
+.par {
+  border-left: 0.1875rem solid #ffffff;
+}
+
 .vantagens-item:hover {
-  border-left: 0.1875rem solid #ee2211;
+  border-color: #ee2211;
 }
 
 .vantagens-item p {
