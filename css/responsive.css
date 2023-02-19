@@ -7,6 +7,14 @@
 
   .menu {
     /* gap: 1.25rem; */
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 1.25rem;
+  }
+
+  .menu a {
+    padding: 1.25rem 0.625rem;
+    text-align: center;
   }
 
   .principal {
@@ -35,6 +43,15 @@
 
   .introducao p {
     max-width: 45ch;
+  }
+
+  .bicicleta {
+    max-width: 90%;
+    justify-self: center;
+  }
+
+  footer p {
+    font-size: 1rem;
   }
 }
 
