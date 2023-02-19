@@ -18,7 +18,7 @@
   }
 
   .principal {
-    max-width: 43.75rem;
+    max-width: 90vw;
     grid-template-columns: 1fr;
   }
 
@@ -43,11 +43,6 @@
 
   .introducao p {
     max-width: 45ch;
-  }
-
-  .bicicleta {
-    max-width: 90%;
-    justify-self: center;
   }
 
   footer p {
