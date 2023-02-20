@@ -34,10 +34,10 @@
     width: 0.25rem;
     /* height: 3.75rem; */
     height: 1.875rem;
-    background-color: #ee2211;
-    position: absolute;
     bottom: -0.9375rem;
     right: 50%;
+    background-color: #ee2211;
+    position: absolute;
   }
 
   .introducao p {
@@ -57,5 +57,10 @@
 
   .subtitulo {
     font-size: 3rem;
+  }
+
+  .introducao::after {
+    height: 3.125rem;
+    bottom: -1.5625rem;
   }
 }
