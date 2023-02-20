@@ -74,4 +74,28 @@
     font-size: 3rem;
     padding: 2.5rem 2.5rem 2.5rem 7rem;
   }
+
+  footer p {
+    font-size: 1.25rem;
+  }
+}
+
+@media screen and (min-width: 992px) {
+  .principal {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    max-width: 54rem;
+  }
+
+  .subtitulo {
+    padding: 2.5rem;
+  }
+
+  .introducao::after {
+    display: none;
+  }
+
+  .introducao::before {
+    display: unset;
+  }
 }
