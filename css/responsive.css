@@ -99,3 +99,9 @@
     display: unset;
   }
 }
+
+@media screen and (min-width: 1200px) {
+  .principal {
+    max-width: 62.5rem;
+  }
+}
