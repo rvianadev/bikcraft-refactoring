@@ -23,6 +23,7 @@
 
   .subtitulo {
     font-size: 2rem;
+    padding: 2.5rem;
   }
 
   .introducao::before {
