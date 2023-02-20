@@ -42,7 +42,7 @@ a {
 .menu a {
   text-transform: uppercase;
   background-color: #ffffff;
-  padding: 0.9375rem 1.875rem;
+  /* padding: 0.9375rem 1.875rem; */
   border-radius: 0.25rem;
   color: #000000;
   border: 0.125rem solid #ffffff;
