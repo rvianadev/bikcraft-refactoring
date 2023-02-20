@@ -69,4 +69,9 @@
   .menu a {
     padding: 0.9375rem 1.875rem;
   }
+
+  .subtitulo {
+    font-size: 3rem;
+    padding: 2.5rem 2.5rem 2.5rem 7rem;
+  }
 }
